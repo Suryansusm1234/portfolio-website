@@ -5,7 +5,7 @@ const GROUPS = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express.js"],
+    skills: ["Node.js", "Express.js","Redis"],
   },
   {
     title: "Database",
@@ -13,7 +13,7 @@ const GROUPS = [
   },
   {
     title: "Tools",
-    skills: ["Git", "Postman", "Vercel", "Render"],
+    skills: ["Git","Github", "Postman", "Vercel", "Render" ],
   },
 ] as const;
 
