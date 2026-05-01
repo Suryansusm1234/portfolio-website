@@ -6,10 +6,10 @@ import { useMemo, useState } from "react";
 
 const PROJECTS = [
   {
-    title: "Expense Tracker",
+    title: "Expense Tracker (Microservice Architecture)",
     description:
-      "Full-stack MERN app for tracking personal expenses with a single-page dense UI",
-    tags: ["React", "Node.js", "MongoDB", "Express", "Vercel"],
+      "Full-stack expense tracker with a separate Python analytics service and resilient fallback system for real-time financial insights.",
+    tags: ["React", "Node.js", "MongoDB", "Express", "Vercel", "FastAPI","Render"],
     liveHref: "https://expense-tracker-peach-kappa-52.vercel.app/",
     githubHref: "https://github.com/Suryansusm1234/Expense-Tracker",
     images: [
